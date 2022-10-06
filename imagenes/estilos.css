@@ -1,0 +1,165 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,249,137,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+header{
+    border: 5px solid black;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #32E96C;
+
+}
+
+section{
+    position: relative;
+}
+.dedico{
+    margin: 20px;
+    border: 5px solid black;
+    width: 96.6%;
+    border-radius: 8px;
+}
+
+.text1{
+    margin: 10px;
+}
+
+.habilidades{
+    border: 5px solid black;
+    width: 97%;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.proye{
+    margin: 10px;
+}
+
+.herra{
+    margin: 10px;
+}
+.android{
+    position: relative;
+    left: 10%;
+    margin: 10px;
+    border-radius: 9px;
+    animation-name: android;
+    animation-duration: 4s;
+    animation-duration: reverse;
+}
+@keyframes android{
+    0%   { left:10px; top:0px;}
+    25%  { left:200px; top:0px;}
+    
+    }
+.ios{
+  
+    margin: 10px;
+    position: relative;
+    left: 50%;
+   
+    border-radius: 9px;
+    animation-name: ios;
+    animation-duration: 4s;
+    animation-duration: reverse;
+}
+@keyframes ios{
+    0%   { left:10px; top:0px;}
+    25%  { left:200px; top:0px;}
+    
+    }
+.cafe{
+    position: relative;
+    right: 45%;
+    margin: 10px;
+    left: 30%;
+    border-radius: 9px;
+    animation-name: cafe;
+    animation-duration: 4s;
+    animation-duration: reverse;
+}
+@keyframes cafe{
+    0%   { left:10px; top:0px;}
+    25%  { left:200px; top:0px;}
+    
+    }
+
+
+.lenguajes{
+    margin: 20px;
+    width: 97%;
+    border: 5px solid black;
+    border-radius: 8px;
+}
+
+.tools{
+    margin: 23px;
+    text-align: center;
+}
+
+.visual{
+    border-radius: 9px;
+}
+
+.vss{
+    border-radius: 9px;
+}
+
+.as{
+    border-radius: 9px;
+}
+
+.nb{
+    border-radius: 9px;
+}
+
+.msq{
+    border-radius: 9px;
+}
+aside{
+    border: 5px solid black;
+    border-radius: 8px;
+    margin: 20px;
+    width: 97%;
+    text-align: center;
+}
+
+
+.foter{
+    margin: 20px;
+    border: 5px solid black;
+    border-radius: 8px;
+    float: left;
+    width: 97.2%;
+}
+
+.descargar{
+    float: right;
+    border-radius: 8px;
+    border: 5px solid black;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: greenyellow;
+}
+
+.cv{
+    margin: 10px;
+    
+}
+
+.cv :hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.info{
+    padding: 1%;
+}
+
+.yo{
+    margin: 8px;
+    border: 4px solid black;
+    border-radius: 8px;
+}
